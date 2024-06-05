@@ -55,11 +55,12 @@ while True:
     #Adding Spousal Income
     spouse_income = ""
     if taxes.lower() == "j":
-        spouse_income = input("What is your spouse's annual gross income?\n")
-        try:
-            spouse_income = int(spouse_income)
-        except ValueError:
-            print("Please enter a number.\n")
+        while type(spouse_income) is not int:
+            spouse_income = input("What is your spouse's annual gross income?\n")
+            try:
+                spouse_income = int(spouse_income)
+            except ValueError:
+                print("Please enter a number.\n")
     else:
         spouse_income = 0
 
