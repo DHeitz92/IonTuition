@@ -5,7 +5,7 @@
 while True:
 
     #The opening message
-    print("Welcome to the Income Driver Repayment Plan Payment Estimator!\n")
+    print("Welcome to the Income Driven Repayment Plan Payment Estimator!\n")
 
     #Taking user input for spousal information
     spouse = input("Are you currently single or married? Enter 's' for single or 'm' for married.\n")
