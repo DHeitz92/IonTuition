@@ -1,11 +1,11 @@
 #This program is intended to take manual input from a user and use it to calculate what a monthly payment on the
-#Income Driven Repayment plan would be
+#Pay As You Earn plan would be
 
 #Establishing loop
 while True:
 
     #The opening message
-    print("Welcome to the Income Driven Repayment Plan Payment Estimator!\n")
+    print("Welcome to the PAYE Plan Payment Estimator!\n")
 
     #Taking user input for spousal information
     spouse = input("Are you currently single or married? Enter 's' for single or 'm' for married.\n")
@@ -87,83 +87,83 @@ while True:
         payment = round((total_income - 22590) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 2:
         payment = round((total_income - 30660) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 3:
         payment = round((total_income - 38730) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 4:
         payment = round((total_income - 46800) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 5:
         payment = round((total_income - 54870) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 6:
         payment = round((total_income - 62940) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 7:
         payment = round((total_income - 71010) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 8:
         payment = round((total_income - 79080) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 9:
         payment = round((total_income - 87150) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 10:
         payment = round((total_income - 95220) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 11:
         payment = round((total_income - 103290) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 12:
         payment = round((total_income - 111360) / 120, 2)
         if payment <= 0:
             payment = 0
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
-            print("Your estimated monthly payment on the IDR Plan is $" + str(payment) + ".\n")
+            print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
