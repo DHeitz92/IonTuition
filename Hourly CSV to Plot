@@ -1,0 +1,56 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+def csv_to_dataframe(file_path):
+  """
+  Reads a CSV file into a pandas DataFrame.
+
+  Args:
+    file_path: Path to the CSV file.
+
+  Returns:
+    A pandas DataFrame containing the data from the CSV file.
+  """
+  try:
+    df = pd.read_csv(file_path)
+    return df
+  except FileNotFoundError:
+    print(f"Error: File not found at {file_path}")
+    return None
+  except Exception as e:
+    print(f"An error occurred: {e}")
+    return None
+
+# Example usage
+file_path = "C:\Users\i300487\Downloads\Detail - Today.csv"  # Replace with the actual path to your CSV file
+df = csv_to_dataframe(file_path)
+
+if df is not None:
+  # Print the first 5 rows of the DataFrame
+  print(df.head())
+
+def plot_seaborn_bar_chart(df, x_col, y_col, title, xlabel, ylabel):
+  """
+  Plots a bar chart using seaborn from a pandas DataFrame.
+
+  Args:
+    df: The pandas DataFrame.
+    x_col: The name of the column to use for the x-axis (labels).
+    y_col: The name of the column to use for the y-axis (values).
+    title: The title of the plot.
+    xlabel: The label for the x-axis.
+    ylabel: The label for the y-axis.
+  """
+  plt.figure(figsize=(10, 6))  # Adjust figure size as needed
+  sns.barplot(x=x_col, y=y_col, data=df)
+  plt.title(title)
+  plt.xlabel(xlabel)
+  plt.ylabel(ylabel)
+  plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better readability
+  plt.show()
+
+# Example usage
+
+plot_seaborn_bar_chart(df, 'Name', 'Positive Results', 
+                       'Performance', 'Associate', 'Positive Results') 
