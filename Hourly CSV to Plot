@@ -23,7 +23,7 @@ def csv_to_dataframe(file_path):
     return None
 
 # Example usage
-file_path = "C:\Users\i300487\Downloads\Detail - Today.csv"  # Replace with the actual path to your CSV file
+file_path = "C:\\Users\\i300487\\Downloads\\Detail - Today.csv"  # Replace with the actual path to your CSV file
 df = csv_to_dataframe(file_path)
 
 if df is not None:
