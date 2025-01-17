@@ -1,0 +1,74 @@
+import requests
+import json
+
+# Replace with your actual Zoom App credentials
+client_id = "YOUR_ZOOM_CLIENT_ID"
+client_secret = "YOUR_ZOOM_CLIENT_SECRET"
+redirect_uri = "YOUR_REDIRECT_URI"
+grant_type = "authorization_code"
+
+# Replace with the actual authorization code obtained from the user
+code = "YOUR_AUTHORIZATION_CODE"
+
+# Construct the URL for the token endpoint
+token_url = "https://https://developers.zoom.us/docs/integrations/oauth/" 
+
+# Prepare the data for the token request
+data = {
+    "grant_type": grant_type,
+    "code": code,
+    "redirect_uri": redirect_uri,
+    "client_id": client_id,
+    "client_secret": client_secret
+}
+
+# Make the POST request to the token endpoint
+response = requests.post(token_url, data=data)
+
+# Check if the request was successful
+if response.status_code == 200:
+    # Parse the JSON response
+    token_data = json.loads(response.text)
+
+    # Extract the access token
+    access_token = token_data["access_token"]
+
+    # Print the access token
+    print(f"Access Token: {access_token}")
+
+    # You can now use the access token to make API calls to the Zoom API
+    # Example:
+    # headers = {"Authorization": f"Bearer {access_token}"}
+    # api_url = "https://api.zoom.us/v2/users/me"
+    # response = requests.get(api_url, headers=headers)
+    # print(response.json())
+
+else:
+    print(f"Error: {response.status_code} - {response.text}")
+
+
+
+
+
+
+
+
+
+
+import http.client
+
+conn = http.client.HTTPSConnection("api.zoom.us")
+
+payload = "{\n  \"message\": \"Hello, World!\"\n}"
+
+headers = {
+    'Content-Type': "application/json",
+    'Authorization': "Bearer YOUR_SECRET_TOKEN"
+}
+
+conn.request("POST", "/v2/im/users/me/chat/messages", payload, headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
