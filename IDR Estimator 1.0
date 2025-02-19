@@ -84,84 +84,84 @@ while True:
 
     payment = 0
     if family == 1:
-        payment = round((total_income - 22590) / 120, 2)
+        payment = round((total_income - 23745) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 2:
-        payment = round((total_income - 30660) / 120, 2)
+        payment = round((total_income - 31725) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 3:
-        payment = round((total_income - 38730) / 120, 2)
+        payment = round((total_income - 39975) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 4:
-        payment = round((total_income - 46800) / 120, 2)
+        payment = round((total_income - 48225) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 5:
-        payment = round((total_income - 54870) / 120, 2)
+        payment = round((total_income - 56475) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 6:
-        payment = round((total_income - 62940) / 120, 2)
+        payment = round((total_income - 64725) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 7:
-        payment = round((total_income - 71010) / 120, 2)
+        payment = round((total_income - 72975) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 8:
-        payment = round((total_income - 79080) / 120, 2)
+        payment = round((total_income - 81225) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 9:
-        payment = round((total_income - 87150) / 120, 2)
+        payment = round((total_income - 89475) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 10:
-        payment = round((total_income - 95220) / 120, 2)
+        payment = round((total_income - 97725) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 11:
-        payment = round((total_income - 103290) / 120, 2)
+        payment = round((total_income - 105975) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
         else:
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
     elif family == 12:
-        payment = round((total_income - 111360) / 120, 2)
+        payment = round((total_income - 114225) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
