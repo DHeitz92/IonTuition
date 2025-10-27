@@ -84,7 +84,7 @@ while True:
 
     payment = 0
     if family == 1:
-        payment = round((total_income - 23745) / 120, 2)
+        payment = round((total_income - 23475) / 120, 2)
         if payment <= 0:
             payment = 0
             print("Your estimated monthly payment on the PAYE Plan is $" + str(payment) + ".\n")
