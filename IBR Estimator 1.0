@@ -1,5 +1,5 @@
 #This program is intended to take manual input from a user and use it to calculate what a monthly payment on the
-#Income-Based plan would be
+#Income-Based Repayment plan would be
 
 #Establishing loop
 while True:
